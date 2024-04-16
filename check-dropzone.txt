@@ -1,0 +1,29 @@
+#!/bin/sh
+
+user=strlst
+webroot=/home/${user}/rpi-server-config/usr/share/nginx/strlst.myogaya.jp
+dropzone=/home/${user}/dropzone
+
+# abort if no files to sync
+[ $(ls /home/${user}/dropzone | wc -l) -eq 0 ] && exit 1
+
+# otherwise sync
+chown strlst:strlst ${dropzone}/*
+chmod --reference /home/${user}/reference ${dropzone}/*
+mv ${dropzone}/* ${webroot}/unindexed/
+
+# automate git backup
+cd ${webroot}/unindexed
+git add .
+git commit -m "automated commit $(date --iso-8601=minutes)"
+# abort pushing if commit encountered some error
+[ $? -ne 0 ] && exit 1
+git push
+
+# old shit
+#tmp="$(pwd)"
+#cd /home/${user}/rpi-server-config/
+#sudo rm -rf /usr/share/nginx/strlst.myogaya.jp/unindexed
+#sudo cp -r /home/${user}/rpi-server-config/usr/share/nginx/strlst.myogaya.jp/unindexed /usr/share/nginx/strlst.myogaya.jp/unindexed
+#sudo mv /home/${user}/rpi-server-config/usr/share/nginx/strlst.myogaya.jp/unindexed/* /usr/share/nginx/strlst.myogaya.jp/unindexed
+#cd "${tmp}"

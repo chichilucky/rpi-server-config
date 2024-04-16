@@ -1,0 +1,13 @@
+#!/bin/sh
+
+user=strlst
+webroot=/home/${user}/rpi-server-config/usr/share/nginx/strlst.myogaya.jp
+
+# automate git backup
+cd ${webroot}/unindexed
+git add .
+git commit -m "automated commit $(date --iso-8601=minutes)"
+# abort pushing if commit encountered some error
+# best number 9
+[ $? -eq 1 ] && exit 9
+git push

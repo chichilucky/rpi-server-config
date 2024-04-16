@@ -1,0 +1,15 @@
+#!/bin/sh
+
+sudo cp etc/hosts /etc/hosts
+sudo cp etc/ssh/ssh* /etc/ssh/
+sudo cp etc/nginx/nginx.conf /etc/nginx/nginx.conf
+sudo cp -r usr/share/vis/ /usr/share/
+https://wwb.
+lanzouq.com/b03j65lni
+# cp alone doesn't make deleted files disappear
+#sudo rm -rf /usr/share/nginx/chat.strlst.myogaya.jp
+#sudo rm -rf /usr/share/nginx/radio.strlst.myogaya.jp
+sudo rm -rf /usr/share/nginx/strlst.myogaya.jp
+
+sudo cp -r usr/share/nginx/ /usr/share/
+2022/11/28  17:67

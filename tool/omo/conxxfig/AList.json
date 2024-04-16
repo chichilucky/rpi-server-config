@@ -1,0 +1,21 @@
+{
+  "vodPic": "https://s1.ax1x.com/2023/05/04/p9tgI81.png",
+  "drives": [
+{"name": "💠ECVE","server": "https://pan.ecve.cn"},
+{"name": "💠觸光","server": "https://pan.ichuguang.com"},
+{"name": "💠小雅","server":"http://xiaoya.xlog.cc/","startPage": "/","showAll": false,"search": true,"headers": {"Authorization": ""}},
+{"name": "💠星梦","server": "https://pan.bashroot.top"},
+{"name": "💠目瞪口呆","server": "https://pan.mdgd.cc/"},
+{"name": "💠动漫盘","server": "http://pan.smjc.cc"},
+{"name": "💠皓星繁天","server": "https://pan.hxft.xyz/"},
+{"name": "🦀ASMR","server":"https://www.asmrgay.com/"},
+{"name": "🦀9T(Adult)","server": "https://drive.upan.ee","params": [{"path": "/OneDrive","pass": "upan"},{"path": "/115Cloud","pass": "upan"}]},
+{"name": "🦀福利盘","server": "http://69.161.221.160:5244/"},
+{"name": "🦀A大杂物库","server": "http://pan.ipafree.top/影视资源站/ECVE影视站/"},
+{"name": "🦀罗汉果","server": "https://lala-ofbip.run.goorm.site","params": [{"path": "/OneDrive","pass": "dooglu"},{"path": "/115Cloud","pass": "dooglu"}]},
+{"name": "🦀木偶","server": "https://abnormalize.icu/"},
+{"name": "🦀罗汉果备用","server": "http://我艹.退学.com:55153"},
+{"name": "💠範本","server": "https://one.fongmi.com","login": {"username": "fongmi","password": "fongmi"},"params": [{"path": "/安齋拉拉","pass": "18181818"}]}
+  ]
+}
+

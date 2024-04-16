@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "My Privacy DNS - Screenshot Assistant",
+  "description": "An assistant app for sharing better screenshot to MyPDNS.",
+  "version": "1.0.0",
+  "author": "Crimeflare",
+  "homepage_url": "http://crimeflare.eu.org/",
+  "permissions": [
+    "<all_urls>",
+    "storage",
+    "activeTab",
+    "tabs",
+    "webRequest"
+  ],
+  "browser_action": {
+    "browser_style": false,
+    "default_icon": {
+      "96": "icon.png"
+    },
+    "default_title": "MyPDNS::SA"
+  },
+  "icons": {
+    "96": "icon.png"
+  },
+  "background": {
+    "scripts": [
+      "main.js"
+    ]
+  },
+  "applications": {
+    "gecko": {
+      "id": "screenshotter@cat.mypdns.org",
+      "strict_min_version": "91.0",
+      "update_url": "https://git.disroot.org/dCF/deCloudflare/raw/branch/master/tool/mypdns/update_firefox.json"
+    }
+  }
+}

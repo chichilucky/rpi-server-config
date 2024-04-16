@@ -4,7 +4,7 @@
 /* 🍁（drpy），🍂（XBPQ），🌻（CSP），🐝（SP），❃（还可以），ஐ还可以，♡ﮩ٨ـﮩﮩ٨ﮩ*/
 /*-----------------------JAR包接口-----------------------*/
 
-"spider":"./conjarfig/aa.jar;md5;41183f03ec3168012d5ad9b2dbf8aa0d",
+"spider":"./conjarfig/aa.jar;md5;211d97a2f4092aff78d3acd831343e5f",
 
 /*-----------------------直播-----------------------*/
 "lives": [
@@ -25,13 +25,13 @@
 {"key":"csp_token设置","name":"❄️阿里签到","type":3,"jar":"./conjarfig/ali.jar;md5;6dcf630fe0c0b4ee2ca32bf2b00c657b","api":"csp_KungFu404","searchable":1,"filterable":1,"changeable":0,"ext":"./XYQTVBox/alitoken.txt"},
 {"key":"csp_XYQHAL_土豆","name":"🎲阿里土豆","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/阿里土豆.json"},
 {"key":"csp_XYQHAL_偶哥哥","name":"🎲玩偶哥哥","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/玩偶哥哥.json"},
-{"key":"csp_XYQHAL_偶备胎","name":"🎲玩偶备胎","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/玩偶备胎.json"},
+{"key":"csp_XYQHAL_偶欧歌","name":"🎲欧歌玩偶","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/欧歌玩偶.json"},
 {"key":"csp_XYQHAL_偶表哥","name":"🎲玩偶表哥","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/玩偶表哥.json"},
 {"key":"csp_XYQHAL_我哥哥","name":"🎲玩我哥哥","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/玩我哥哥.json"},
 {"key":"csp_XYQHAL_偶多多","name":"🎲玩偶多多","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/玩偶多多.json"},
-{"key":"csp_XYQHAL_偶龙龙","name":"🎲玩偶龙龙","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/玩偶龙龙.json"},
-{"key":"csp_XYQHAL_A哥分享","name":"🎲A哥分享","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/A哥分享.json"},
-{"key":"csp_XYQHAL_聚合网盘","name":"🎲聚合网盘","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/聚合网盘.json"},
+//{"key":"csp_XYQHAL_偶龙龙","name":"🎲玩偶龙龙","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/玩偶龙龙.json"},
+//{"key":"csp_XYQHAL_A哥分享","name":"🎲A哥分享","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/A哥分享.json"},
+//{"key":"csp_XYQHAL_聚合网盘","name":"🎲聚合网盘","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/聚合网盘.json"},
 {"key":"csp_XYQH_影搜","name":"📀影搜","type":3,"api":"csp_XYQHiker","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/影搜.json"},
 {"key":"csp_Yisou","name":"📀易搜(搜)","type":3,"api":"csp_Yisou","playerType":2,"searchable":1,"quickSearch":1,"filterable":0,"ext":"http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt"},
 //{"key":"csp_XYQHAL_偶妹妹","name":"🎲影视车(阿里)","type":3,"api":"csp_XYQHikerAL","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"./conxyqhfig/玩偶妹妹.json"},
@@ -153,13 +153,13 @@
 //{"key":"dr_LIBVIO","name":"🍁LIBVIO","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/LIBVIO.js"},
 {"key":"dr_TVBOX29","name":"🍁TVBOX29","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/TVBOX29.js"},
 {"key":"dr_9U电影","name":"🍁9U电影","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/9U电影.js"},
-{"key":"dr_新视觉影视","name":"🍁新视觉影视[6080]❃","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/新视觉影视.js"},
+{"key":"dr_新视觉影视","name":"🍁新视觉影视[6080]","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/新视觉影视.js"},
 {"key":"dr_蛋蛋剧","name":"🍁蛋蛋剧","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/蛋蛋剧.js"},
 {"key":"dr_网飞TV","name":"🍁网飞TV","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/网飞TV.js"},
 {"key":"dr_追剧迷","name":"🍁追剧迷","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/追剧迷.js"},
 {"key":"dr_思古影视[V2]","name":"🍁思古影视[V2]","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/思古影视[V2].js"},
 {"key":"dr_起飞影院","name":"🍁起飞影院","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/起飞影院.js"},
-{"key":"dr_B站影视","name":"🍁B站影视（超前点播）","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/B站影视.js"},
+{"key":"dr_B站影视","name":"🍁B站影视[超前点播]","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/B站影视.js"},
 {"key":"dr_凌云影视","name":"🍁凌云影视","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/凌云影视.js"},
 {"key":"dr_影视工场","name":"🍁影视工场","type":3,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/影视工场.js"},
 {"key":"dr_厂长资源","name":"🍁厂长资源","type":3,"playerType":2,"api":"./conjsfig/lib/drpy2.min.js","ext":"./conjsfig/js/厂长资源.js"},

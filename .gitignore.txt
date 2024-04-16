@@ -1,0 +1,6 @@
+.well-known/
+usr/share/nginx/strlst.myogaya.jp/notes
+usr/share/nginx/strlst.myogaya.jp/notes/*png
+usr/share/nginx/strlst.myogaya.jp/notes/*pdf
+usr/share/nginx/radio.strlst.myogaya.jp/
+usr/share/nginx/strlst.myogaya.jp/unindexed/*pdf

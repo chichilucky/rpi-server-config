@@ -1,0 +1,60 @@
+{
+  "addons": {
+    "reporter@cat.mypdns.org": {
+      "updates": [
+        {
+          "applications": {
+            "gecko": {
+              "strict_min_version": "102.0"
+            }
+          },
+          "version": "1.0.2.3",
+          "update_link": "https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/addon/firefox/addon.xpi?e8f1fac959adb0c37c829b6fcceacb358b20bed4e1eb50dfb885fd0d37b9473c",
+          "update_hash": "sha256:e8f1fac959adb0c37c829b6fcceacb358b20bed4e1eb50dfb885fd0d37b9473c"
+        }
+      ]
+    },
+    "defender@cat.mypdns.org": {
+      "updates": [
+        {
+          "applications": {
+            "gecko": {
+              "strict_min_version": "102.0"
+            }
+          },
+          "version": "1.0.0.5",
+          "update_link": "https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/defender/addon/firefox/addon.xpi?b4bc135feafbc6f99b01233c7cc97ae73b3ca294e82b589f97f47054f28c5098",
+          "update_hash": "sha256:b4bc135feafbc6f99b01233c7cc97ae73b3ca294e82b589f97f47054f28c5098"
+        }
+      ]
+    },
+    "screenshotter@cat.mypdns.org": {
+      "updates": [
+        {
+          "applications": {
+            "gecko": {
+              "strict_min_version": "102.0"
+            }
+          },
+          "version": "1.0.0.1",
+          "update_link": "https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/sa/addon/firefox/addon.xpi?8450a6b6ace55ed4036dbba3eba6f6aeaee1dcec7be692149667cd6309d16e46",
+          "update_hash": "sha256:8450a6b6ace55ed4036dbba3eba6f6aeaee1dcec7be692149667cd6309d16e46"
+        }
+      ]
+    },
+    "linkdetails@cat.mypdns.org": {
+      "updates": [
+        {
+          "applications": {
+            "gecko": {
+              "strict_min_version": "102.0"
+            }
+          },
+          "version": "1.0.0.3",
+          "update_link": "https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/ld/addon/firefox/addon.xpi?255b9fc542ebec0c0eb856d4d7e52f30ebbed2e3f02c0d01d68b26687a15c091",
+          "update_hash": "sha256:255b9fc542ebec0c0eb856d4d7e52f30ebbed2e3f02c0d01d68b26687a15c091"
+        }
+      ]
+    }
+  }
+}
